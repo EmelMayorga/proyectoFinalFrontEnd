@@ -1,0 +1,23 @@
+{
+  "user": [
+    {
+      "id": "080b",
+      "username": "Amira",
+      "email": "amira@gmail.com",
+      "password": "Amira1234"
+    }
+  ],
+  "autenticacion": [],
+  "catalogo": [
+    {
+      "id": "ffaf",
+      "product": [
+        "Amira",
+        "Nada",
+        "1",
+        "Como ella no hay dos, porque si no, quien la aguantara",
+        ""
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+#contactBody{
+    background-image: url(../Img/ImagenProyecto4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    #contactTittle{
+        text-align: center;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+    }
+    #contactText{
+        color: rgb(255, 255, 255);
+    }
+    #contactForm1{
+        display: grid;
+        grid-template-columns: 500px 500px;
+        column-gap: 250px
+    }
+}
