@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LogIn() {
+function Catalogo() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function LogIn() {
   )
 }
 
-export default LogIn
+export default Catalogo

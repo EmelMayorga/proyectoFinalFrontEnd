@@ -1,20 +1,15 @@
-import { useEffect } from 'react';
-import {useNavigate } from 'react-router-dom';
-import GetAutenticacion from '../Services/GetAutenticacion';
+import React from 'react';
+import { Navigate } from 'react-router-dom';
 
 const ProtectedRoute = ({ children }) => {
-    const navigate = useNavigate()
-useEffect(() => {
-const fetchKey = async () => {
-    const data = await GetAutenticacion();
-    if (data[0].key ==='true') {    
-    }else{
-        return navigate ("/Main")
-    }
-};
-fetchKey();
+    
+    const estaAutenticado = localStorage.getItem('Autenticado') === 'true'; 
 
-},[])
+    if (!estaAutenticado ) {
+       
+        return <Navigate to="/" />;
+    }
+
     return children;
 };
 

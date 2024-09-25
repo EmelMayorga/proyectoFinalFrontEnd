@@ -4,8 +4,10 @@ import Main from '../Pages/Main';
 import AboutUs from '../Pages/AboutUs';
 import Contact from '../Pages/Contact';
 import Services from '../Pages/Services';
+import LogIn from '../Pages/LogIn';
 import Perfil from '../Pages/Perfil';
 import Admin from '../Pages/Admin';
+import AdminCatalogo from '../Pages/AdminCatalogo';
 import ProtectedRoute from './ProtectedRoute';
 
 function Routing() {
@@ -19,7 +21,10 @@ function Routing() {
                 <Route path="/Contact" element={<Contact />}/>
                 <Route path="/Services" element={<Services />}/>
                 <Route path="/Perfil" element={<Perfil />} />
+                <Route path="/LogIn" element={<LogIn />} />
                 <Route path="/Admin" element={<ProtectedRoute><Admin /></ProtectedRoute>} />
+                <Route path="/AdminCatalogo" element={<ProtectedRoute><AdminCatalogo /></ProtectedRoute>} />
+
             </Routes>
       </Router>
     </div>

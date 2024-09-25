@@ -1,10 +1,12 @@
 import React from 'react'
 import AdminBody from '../Components/AdminBody'
-import NavBar from '../Components/NavBar'
+import HeaderAdmin from '../Components/HeaderAdmin'
+
+
 function Admin() {
   return (
     <div>
-      <NavBar/>
+      <HeaderAdmin/>
       <AdminBody />
     </div>
   )

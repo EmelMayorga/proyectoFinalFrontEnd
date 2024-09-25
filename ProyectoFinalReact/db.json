@@ -5,19 +5,26 @@
       "username": "Amira",
       "email": "amira@gmail.com",
       "password": "Amira1234"
+    },
+    {
+      "id": "b304",
+      "username": "Sebas",
+      "email": "sebas@gmail.com",
+      "password": "Sebas1234"
     }
   ],
   "autenticacion": [],
   "catalogo": [
     {
-      "id": "ffaf",
-      "product": [
-        "Amira",
-        "Nada",
-        "1",
-        "Como ella no hay dos, porque si no, quien la aguantara",
-        ""
-      ]
+      "id": "347a",
+      "formProduct": {
+        "name": "",
+        "price": "",
+        "description": "",
+        "category": "",
+        "imageUrl": "",
+        "": "D"
+      }
     }
   ]
 }

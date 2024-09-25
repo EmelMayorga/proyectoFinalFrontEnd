@@ -1,42 +1,25 @@
 import React from 'react'
 import '../Styles/MainBody.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import ImagenProyecto8 from '../Img/ImagenProyecto8.jpg'
-import ImagenProyecto9 from '../Img/ImagenProyecto9.jpg'
-import ImagenProyecto10 from '../Img/ImagenProyecto10.jpg'
-import ImagenProyecto11 from '../Img/ImagenProyecto11.jpg'
-import ImagenProyecto12 from '../Img/ImagenProyecto12.jpg'
-import ImagenProyecto13 from '../Img/ImagenProyecto13.jpg'
 
 
 
 function MainBody() {
   return (
-    <div id='Body'>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src={ImagenProyecto8} alt="First slide" />
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src={ImagenProyecto9} alt="Second slide" />
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src={ImagenProyecto10} alt="Third slide" />
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src={ImagenProyecto11} alt="Third slide" />
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src={ImagenProyecto12} alt="Third slide" />
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src={ImagenProyecto13} alt="Third slide" />
-    </div>
+    <div >
+      <div className='bienvenida'>
+        <h2 className='bienvenidaText'>Ven y conocenos</h2>
+        <p id='dingrepairsHome'>Sabemos lo que es... Estás en pleno surf, la ola perfecta se forma, y ¡zas!, tu tabla termina
+chocando con algo que no era agua. No te preocupes, en Ding Repairs estamos
+aquí para salvar el día. Con años de experiencia y un montón de resinas de primera, nos
+encargamos de dejar tu tabla lista para la próxima aventura. No importa si eres un pro o
+estás en tu primera ola, tu tabla siempre será nuestra prioridad</p>
+      </div>
 
-  </div>
-</div>
-</div>
+      <div>
+        
+      </div>
+
+    </div>
   )
 }
 

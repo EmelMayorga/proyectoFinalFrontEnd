@@ -1,8 +1,8 @@
-async function PostCatalogo(product) {
+async function PostCatalogo(formProduct) {
     try {
      
         const listaProductos = { 
-            product
+            formProduct
         };
 
         const response = await fetch("http://localhost:3007/catalogo", {

@@ -1,14 +1,14 @@
 import React from 'react'
 import MapaContact from './MapaContact'
 import ContactForm from './ContactForm'
+import NavBar from '../Components/NavBar'
 import '../Styles/ContactBody.css'
-
-
-
+import Footer from './Footer'
 
 function ContactBody() {
   return (
     <div id="contactBody">
+      <NavBar/>
       <div id="contactDiv">
       <h2 id="contactTittle">Sobre Nosotros</h2>
       <p id="contactText">
@@ -22,6 +22,7 @@ como a los visitantes. ¡Escríbenos y te responderemos lo antes posible!
         <MapaContact />
         <ContactForm />
       </div>
+      <Footer/>
     </div>
   )
 }

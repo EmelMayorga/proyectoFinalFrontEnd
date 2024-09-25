@@ -46,7 +46,7 @@ function FormRegister() {
               PostUsers(username, email, password);
               const verificacion = true;
               PostVerificados(username, password, verificacion);
-              navigate("/Login")
+              navigate("/LogIn")
   
           }
           

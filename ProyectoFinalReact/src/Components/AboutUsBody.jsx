@@ -7,7 +7,8 @@ import ImagenProyecto7 from '../Img/ImagenProyecto7.jpg'
 function AboutUsBody() {
   return (
     <div id="aboutUsDiv">
-      <div id="aboutUsTittle">
+      <div id="aboutUsFondo">
+        <section id="aboutUsText">
         <h2>Sobre Nosotros</h2>
         <p>Somos surfistas. Somos artesanos. Y somos locales. En Ding Repairs, nos
 apasiona el surf tanto como a ti. Por eso, nos especializamos en la reparación de tablas de
@@ -18,19 +19,20 @@ Nacimos en la costa, creciendo entre olas y sal. Cada tabla que pasa por nuestra
 cuenta una historia, y nuestra misión es ayudar a que esas historias continúen. Ya sea que
 tu tabla necesite una reparación completa o simplemente un retoque, nos encargamos de
 dejarla lista para la próxima aventura.</p>
+        </section>
       </div>
-      <div id='cartImagenes'>
-      <img src={ImagenProyecto1} alt="" srcset="" />
-      <img src={ImagenProyecto6} alt="" srcset="" />
-      <img src={ImagenProyecto7} alt="" srcset="" />
+      <div className='cartImagenes'>
+        <div className='divCardImagen'>
+        <img src={ImagenProyecto1} alt="ClientesSatisfechos" className='divImagen'/>
+        </div>
+        <div className='divCardImagen'>
+        <img src={ImagenProyecto6} alt="ProcesodeTrabajo" srcset="" className='divImagen'/>
+        </div>
+        <div className='divCardImagen'>
+        <img src={ImagenProyecto7} alt="ClientesSatisfechos" srcset="" className='divImagen'  />
+        </div>
       </div>
-      <div id='cartReseñas'>
-        <h3>Reseñas</h3>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
+
     </div>
   )
 }
