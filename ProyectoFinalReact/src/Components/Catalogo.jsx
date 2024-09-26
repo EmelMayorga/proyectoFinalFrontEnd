@@ -38,7 +38,7 @@ function Catalogo() {
   };
 
 return (
-    <div>
+    <div id='catalogoBody'>
       <div id="mapArticle">
         <div className="product">
           {productos.length > 0 ? (

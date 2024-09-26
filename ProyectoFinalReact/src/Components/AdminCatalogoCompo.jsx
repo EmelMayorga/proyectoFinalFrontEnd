@@ -132,6 +132,8 @@ formProduct
   </div>
 
 </div>
+<div id='mapeo'>
+
       <div id="mapArticle">
         <div className="product-grid">
           {productos.length > 0 ? (
@@ -167,6 +169,7 @@ formProduct
             <p>No hay producto(s)/servicio(s) disponibles.</p>
           )}
         </div>
+      </div>
       </div>
     </div>
   );
