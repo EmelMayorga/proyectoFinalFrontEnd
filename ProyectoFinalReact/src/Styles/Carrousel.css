@@ -1,11 +1,10 @@
-#carouselExampleDark{
-    margin-left: 10%;
-    width: 80%;
-}
 .carousel-inner{
-    margin-left: 10%;
+height: 40%;
 }
-.d-block-w-100{
-    margin-left: 15%;
-    height: 500px;
-}
+.d-block-w-100{   
+        width: 30%; /* Reduce image size */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Centers the image */
+        border-radius: 10px; /* Optional: adds a border radius */
+    }

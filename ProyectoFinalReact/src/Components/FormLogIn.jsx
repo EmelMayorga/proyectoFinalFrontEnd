@@ -1,7 +1,10 @@
 import React from 'react'
+import '../Styles/Forms.css'
 import { useEffect, useState } from 'react';
 import GetUsers from '../Services/GetUsers';
 import {  useNavigate } from "react-router-dom";
+import Footer from './Footer';
+import Navbar from './NavBar';
 
 function FormLogIn() {
 const [username, setUsername] = useState('');
@@ -45,14 +48,18 @@ const cargar = async () => {
 
 }
   return (
-    <div>
-            <p>Inicio de Sesión</p>
+    <div className='background'>
+      <Navbar/>
+      <div id='divLog'>
+      <p>Inicio de Sesión</p>
       <p>Usuario</p>
       <input type="text" name="" id="user" onChange={cargaUsuario} required/>
       <p>Contraseña</p>
       <input type="password" name="" id="pass" onChange={cargaPassword} required/>
       <br />
       <button onClick={cargar} type="submit">Iniciar Sesión</button>
+      </div>
+      <Footer/>
     </div>
   )
 }

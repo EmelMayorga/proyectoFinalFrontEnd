@@ -1,5 +1,5 @@
 import React from 'react'
-import AdminBody from '../Components/AdminBody'
+import AdminCatalogoCompo from '../Components/AdminCatalogoCompo'
 import HeaderAdmin from '../Components/HeaderAdmin'
 
 
@@ -7,7 +7,7 @@ function Admin() {
   return (
     <div>
       <HeaderAdmin/>
-      <AdminBody />
+      <AdminCatalogoCompo/>
     </div>
   )
 }

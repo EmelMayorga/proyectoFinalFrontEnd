@@ -7,7 +7,7 @@ import '../Styles/NavBar.css'
 
 function Navbar2() {
   return (
-    <div>
+    <div id='navBody'>
           <Navbar bg="light" expand="lg">
       <Navbar.Brand href="/"><img src={LogoProyectoF} alt="" srcset="" id="logoProyecto"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

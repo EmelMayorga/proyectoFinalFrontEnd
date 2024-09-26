@@ -1,0 +1,26 @@
+.background{
+    background-image: url('../Img/ImagenProyecto14.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#divLog{
+    background-color: rgba(243, 210, 168, 0.877);
+    background-size: cover;
+    border-radius: 20%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}
+#divReg{
+    background-color: rgba(243, 210, 168, 0.877);
+    background-size: cover;
+    border-radius: 20%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+}

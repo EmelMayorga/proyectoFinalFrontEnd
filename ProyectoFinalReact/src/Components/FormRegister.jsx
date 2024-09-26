@@ -1,9 +1,12 @@
 import React from 'react'
+import '../Styles/Forms.css'
 import { useEffect, useState } from 'react';
 import PostUsers from '../Services/PostUsers'
 import GetUsers from '../Services/GetUsers';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import Navbar from './NavBar';
+import Footer from './Footer';
 
 
 function FormRegister() {
@@ -55,8 +58,9 @@ function FormRegister() {
 
 
   return (
-    <div>
-          <div id="DivReg">
+    <div className='background'>
+      <Navbar/>
+      <div id="divReg">
       <p>Registro de Usuarios</p>
       <br />
       <p>Nombre de Usuarios</p>
@@ -71,6 +75,7 @@ function FormRegister() {
       <p> <Link to="/Login"> ¿Ya estas registrado? Inicio de Sesión</Link> </p>
       </div>
     </div>
+    <Footer/>
     </div>
   )
 }

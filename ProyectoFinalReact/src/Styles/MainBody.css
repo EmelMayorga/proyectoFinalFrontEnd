@@ -12,7 +12,6 @@
     font-weight: normal;
   }
   
-  /* Línea horizontal debajo del título */
   .bienvenidaText:after {
     content: "";
     display: block;
@@ -22,7 +21,6 @@
     margin: 10px auto;
   }
   
-  /* Estilo del texto descriptivo */
  #dingrepairsHome {
     font-size: 1rem;
     color: #202020;
@@ -30,4 +28,58 @@
     max-width: 800px;
     margin: 0 auto 30px auto;
   }
+.linea{
+  content: "";
+  display: block;
+  width: 450px;
+  height: 2px;
+  background-color: #e09b64;
+  margin: 10px auto;
+}
+#divPalancho{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.palancho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+.palanchoImg{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.palanchoImagen{
+  width: auto;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.palanchoInfo{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  text-align: center;
+}
+.palanchoText{
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+.palancho{
+  display: flex;
   
+}
+.palanchoInfo{
+  padding-left: 0;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+
+}

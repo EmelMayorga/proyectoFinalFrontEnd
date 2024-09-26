@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/MainBody.css'
+import ImagenProyecto7 from '../Img/ImagenProyecto7.jpg'
 
 
 
@@ -14,11 +15,27 @@ aquí para salvar el día. Con años de experiencia y un montón de resinas de p
 encargamos de dejar tu tabla lista para la próxima aventura. No importa si eres un pro o
 estás en tu primera ola, tu tabla siempre será nuestra prioridad</p>
       </div>
+<div className='linea'>
 
-      <div>
-        
+</div>
+<div id='divPalancho'>
+      <div className='palancho'>
+        <div className='palanchoImg'>
+        <img src={ImagenProyecto7} alt="ClientesSatisfechos" srcset="" className='palanchoImagen'  />
+        </div>
+        <div className='palanchoInfo'>
+        <p className='palanchoText'>
+        Hola!. 
+        Mi nombre es Alexander Córdoba Palavicini, A.K.A Palancho.
+        Soy un local de Nosara y  me encanta el surf. Me gusta ayudar a mis clientes a seguir su pasión por este deporte.
+        Asi que dejame ayudarte para que sigas disfrutando al maximo posible de este!
+      </p>
+        </div>
       </div>
-
+</div>
+<div className='bienvenida'>
+        <h2 className='bienvenidaText'>Nuestros Productos y Servicios</h2>
+</div>
     </div>
   )
 }

@@ -14,20 +14,24 @@
     padding: 20px;
     border-radius: 10px;
 }
-.cartimages{
-    display: grid;
-    grid-template-columns: 1rem 1rem 1rem; /* Tres columnas para tres cards */
-    grid-gap: 20px; /* Espacio entre las cards */
+.cartImagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px; /* Space between the cards */
     padding: 20px;
-    justify-items: center; /* Centra las cards horizontalmente */
 }
 .divCardImagen{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle efecto */
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 .divImagen{
-    width: 50%; /* Imagen ocupa el 100% del ancho del card */
+    width: 100%; /* Imagen ocupa el 100% del ancho del card */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block;
     border-radius: 10px;

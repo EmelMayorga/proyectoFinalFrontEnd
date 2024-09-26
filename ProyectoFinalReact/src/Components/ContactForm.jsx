@@ -5,7 +5,7 @@ import '../Styles/ContactForm.css'
 function ContactForm() {
   return (
     <div id="contactForm">
-      <h2>Contactenos</h2>
+      <h2 id='contactTextTittle'>Contactenos</h2>
       <input type="text" name="" id="nombreForm" placeholder='Nombre Completo' />
       <input type="tel" name="" id="numeroForm" placeholder='Numero Telefonico'/>
       <input type="email" name="" id="correoForm" placeholder='Correo Electronico'/>

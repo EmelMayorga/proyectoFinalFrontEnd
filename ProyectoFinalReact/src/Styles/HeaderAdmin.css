@@ -1,0 +1,11 @@
+.container-fluid{
+    background-color: rgb(247, 226, 196);
+}
+.logoAdmin{
+    height: auto;
+    width: 120px;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
